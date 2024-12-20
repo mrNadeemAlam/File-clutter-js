@@ -7,7 +7,7 @@ import fsn from "fs"
 import path from "path"
 import { json } from "stream/consumers"
 
-let basepath = "c:\\Users\\MrNDJ\\Desktop\\MrNDJ\\Codes\\Backend\\exercise15"
+let basepath = "c:\\Users\\MrNDJ\\Desktop\\MrNDJ\\Codes\\Backend\\exercise15"  // your file lcoation 
 // console.log(basepath) 
 
 let files = await fs.readdir(basepath)
